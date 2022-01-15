@@ -1,0 +1,87 @@
+
+
+
+/* common styles  start*/
+
+
+
+
+/* common styles  end*/
+
+
+
+/* header section style start*/
+.header-conatiner{
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+   
+}
+.header-title{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-title h3{
+    margin-right: 402px;
+    
+}
+.navbar-link{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar-link>ul{
+    display: flex;
+}
+.navbar-link li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.navbar-link li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link li:hover{
+    background-color: rgba(128, 105, 3, 0.637);
+    border:2px solid burlywood;
+}
+/* header section style end*/
+
+/*  Top header section style start*/
+.downheader-container{
+    margin-top: 150px;
+}
+.flexiable-downheader{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+   
+}
+.img-half{
+    width: 70%;
+    
+}
+
+.button{
+    text-decoration: none;
+    background-color: red;
+    padding:10px 40px;
+    border-radius: 5em;
+    
+    color:white;
+    font-weight: 400px;
+}
+
+
+/*  Top header section style end*/
