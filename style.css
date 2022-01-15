@@ -154,6 +154,39 @@ border-radius: 5px;
     color:#E02C6D;
 }
 /* collection styles end */
+/* main extra part start */
+.extra-container{
+    margin-top: 162px;
+}
+.main-extra{
+    text-align: center;
+    font-size: 40px;
+}
+.orange-color{
+
+    color: orange;
+  }
+
+  .content-b-foot{
+    display: flex;
+    border:5px solid;
+    border-radius: 9px;
+}
+
+
+.content-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 10px;
+    
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#remove{
+    text-decoration: none;
+}
+/* main extra part end */
 
 /* footer start */
  .web-foot{
@@ -170,5 +203,9 @@ border-radius: 5px;
  .web-foot h3, p{
      margin: 0;
  }
+ .fa-instagram,.fa-twitter, .fa-youtube ,.fa-firefox{
+     margin-right: 5px;
+ }
+
 
 /* footer end */
