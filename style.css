@@ -71,8 +71,15 @@ body{
    
 }
 .img-half{
-    width: 70%;
+    width: 55%;
+   
+    transition:  transform 1s;
     
+}
+.img-half:hover {
+    
+    transform: rotate(180deg);
+    background-color: gray;
 }
 .bt{
     margin-top: 20px;
