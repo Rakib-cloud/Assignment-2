@@ -1,9 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:ital,wght@0,700;1,300&display=swap');
 
 
 /* common styles  start*/
 
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /* common styles  end*/
@@ -75,7 +77,7 @@
 
 .button{
     text-decoration: none;
-    background-color: red;
+    background-color: #E02C6D;
     padding:10px 40px;
     border-radius: 5em;
     
@@ -115,6 +117,7 @@
     margin-top: 20px;
     place-items: center;
 }
+
 .collection{
    
 background: #FFFFFF;
@@ -136,6 +139,16 @@ border-radius: 5px;
     color: lightgray;
     font-size: 0.8em;
 }
+.collection-details h6{
+ margin: 0;
+}
 
-
+.seemore{
+    position: absolute;
+    right: 50px;
+}
+.seemore p a{
+    text-decoration: none;
+    color:#E02C6D;
+}
 /* collection styles end */
